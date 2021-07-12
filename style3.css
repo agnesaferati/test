@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Poppins:wght@200&display=swap');
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 34px;
+    color: lightcoral;
+    font-family: 'Akaya Kanadaka', cursive;
+    padding: 30px 100px;
+    display: block;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu li {
+    display: inline-block;
+    padding: 50px;
+}
+
+.nav-menu li a {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.main {
+    width: 100%;
+    height: 90vh;
+    background-image: url('flo/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .content {
+    max-width: 900px;
+    text-align: center;
+    margin-left: 50px;
+    position: relative;
+    top: 300px;
+}
+
+.main .content h1 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding: 40px 20px;
+}
+
+.main .content p {
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 50px;
+}
+
+.main .content .button {
+    width: 160px;
+    height: 50px;
+    color: white;
+    background-color: lightcoral;
+    padding: 15px;
+    margin-left: 30%;
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+} 
+
+.button:hover {
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+
+.about {
+    width: 100%;
+    height: 65vh;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column1 {
+    flex: 50%;
+    margin: 50px 60px;
+}
+
+.column1 h1 {
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 34px;
+    letter-spacing: 3px;
+    margin-top: 100px;
+}
+.column1 .line {
+    border-bottom: 5px solid lightcoral;
+    width: 70px;
+    padding: 5px;
+}
+
+.column1 p {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+
+.column2 {
+    flex: 50%;
+}
+
+.column2 img {
+    margin-top: 100px;
+}
+
+.services {
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.services .container {
+    position: relative;
+    align-items: center;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    column-count: 3;
+    column-gap: 20px;
+    flex-direction: row;
+}
+
+.services h1 {
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 34px;
+    letter-spacing: 3px;
+    position: relative;
+    top: 100px;
+    margin-left: 230px;
+}
+
+.services .line1 {
+    border-bottom: 5px solid lightcoral;
+    width: 70px;
+}
+
+.container .col-1, .col-2 {
+    width: 15%;
+    align-items: center;
+    margin: 20px 10px 10px 40px;
+}
+
+.container .col-3 {
+    width: 40%;
+    position: relative;
+    left: 70px;
+    border: 2px solid lightcoral;
+}
+
+.col-3 img {
+    position: relative;
+    margin-left: 250px;
+    bottom: 40px;
+}   
+
+.col-1 h3 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+.col-1  p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-2 h3 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+.col-2 p {
+    font-family: 'Poppins', sans-serif;  
+}
+
+.bouqets {
+    width: 100%;
+    height: 100vh;
+    background-image: url('flo/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.bouqets .content1 {
+    max-width: 900px;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    left: 30%;
+    border: 2px solid lightcoral;
+    padding: 80px;
+}
+
+.bouqets .content1 h3 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 27px;
+}
+
+.bouqets .content1 h1 {
+    color: lightcoral;
+    font-family: 'Cute Font', cursive;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 30px;
+}
+
+.bouqets .content1 span {
+    font-size: 40px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+
+.our-team {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(235, 235, 232);
+}
+
+.our-team h2 {
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 34px;
+    letter-spacing: 3px;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.our-team .line2 {
+    border-bottom: 5px solid lightcoral;
+    width: 70px;
+    position: relative;
+    top: 10px;
+    left: 42.9%;
+}
+
+.our-team .content2 {
+    width: 90%;
+    height: 40vh;
+    position: relative;
+    top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.content2 .photo1, .photo2, .photo3 h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.photo1 img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: grey;
+    width: 400px;
+    height: 300px;
+    transition: 3s;
+}
+
+.photo2 img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: grey;
+    width: 400px;
+    height: 300px;
+    transition: 3s;
+}
+
+.photo3 img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: grey;
+    width: 400px;
+    height: 300px;
+    transition: 3s;
+}
+
+.photo1 p {
+    font-size: 15px;
+    color: rgb(56, 55, 55);
+}
+
+.photo2 p {
+    font-size: 15px;
+    color: rgb(56, 55, 55);
+}
+
+.photo3 p {
+    font-size: 15px;
+    color: rgb(56, 55, 55);
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.fab {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.photo1 .fab {
+    font-size: 18px;
+}
+
+.photo2 .fab {
+    font-size: 18px;
+}
+
+.photo3 .fab {
+    font-size: 18px;
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 40vh;
+    background-color: #434f53;
+}
+
+footer h5 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+    padding: 23px;
+    text-align: center;
+}
+
+footer .fas {
+    color: rgb(226, 90, 90);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 414px) {
+    .main {
+
+        background-image: url('flo/1.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main .content h1 {
+        font-size: 35px;
+        color: white;
+        text-align: left;
+        margin-right: 100px;
+    }
+
+    .main .content p {
+        font-size: 15px;
+        color: rgb(18, 5, 95);
+        position: relative;
+        right: 80px;
+        margin: 20px 30px;
+        display: block;
+    }
+
+    .main .content .button {
+        margin-left: 7px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .column1 {
+        background-color: rgb(245, 245, 245);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 25px;
+    }
+
+    .column2 img {
+        width: 100%;
+    }
+
+    .services {
+        height: 210vh;
+        margin-top: 650px;
+    }
+
+    .services h1 {
+        width: 100%;
+        position: relative;
+        right: 200px;
+    }
+
+    .services .container {
+        position: relative;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container .col-1 {
+        width: 90%;
+        margin-top: 200px;
+    }
+
+    .container .col-2 {
+        width: 90%;
+    }
+
+    .container .col-3 {
+        width: 90%;
+        height: 40vh;
+        position: relative;
+        align-items: center;
+        left: 6px;
+        top: 30px;
+    }
+
+    .col-3 img {
+        width: 320px;
+        height: 320px;
+        position: relative;
+        right: 220px;
+        margin-bottom: 50px;
+    }
+
+    .bouqets .content1 {
+        max-width: 700px;
+        text-align: center;
+        position: relative;
+        top: 400px;
+        left: 30px;
+        border: 2px solid lightcoral;
+        padding: 50px;
+    }
+
+    .bouqets .content1 {
+        max-width: 350px;
+        max-height: 300px;
+        text-align: center;
+        position: relative;
+        top: 400px;
+        left: 20px;
+        border: 2px solid lightcoral;
+        padding: 40px;
+    }
+    
+    .bouqets .content1 h3 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .bouqets .content1 h1 {
+        text-align: center;
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+    
+    .bouqets .content1 span {
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 10px;
+    }
+
+    .our-team {
+        width: 100%;
+        height: 100vh;
+        margin-top: 370px;
+        background-color: white;
+    }
+
+    .our-team .content2 {
+        width: 90%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .our-team h2 {
+        font-size: 34px;
+        letter-spacing: 3px;
+        position: relative;
+        bottom: 360px;
+    }
+    
+    .our-team .line2 {
+        visibility: hidden;
+    }
+
+    .photo3 img {
+        margin-left: 50px;
+    }
+    
+    .photo3 .fab {
+        position: relative;
+        left: 140px;
+    }
+
+    footer {
+        height: 50vh;
+        position: relative;
+        top: 300px;
+    }
+    
+    footer h5 {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    footer p {
+        color: white;
+        font-size: 20px;
+        padding: 23px;
+        text-align: center;
+    }
+    
+    footer .fas {
+        color: rgb(226, 90, 90);
+    }
+
+
+    
+}
